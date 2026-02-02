@@ -1,4 +1,4 @@
-# HorizonArm 项目开发者学习路线
+# HorizonArm 项目开发者学习路线(X1/H1系列)
 
 欢迎！您刚拿到 HorizonArm 项目，本文档将帮助您系统性地学习和掌握这个项目。
 
