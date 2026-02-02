@@ -27,7 +27,7 @@
 ### 项目目录总览
 
 ```
-Horizon_Arm1.3/
+Horizon_Arm/
 ├── 📚 example/                          ⭐ 从这里开始！
 │   ├── README.md                        - 示例代码总导航和快速开始
 │   ├── 示例代码总导航.md                 - 详细的示例代码导航
@@ -86,7 +86,7 @@ Horizon_Arm1.3/
 
 ```bash
 # 进入项目目录
-cd Horizon_Arm1.3
+cd Horizon_Arm
 
 # 安装基础依赖
 pip install -r requirements.txt
