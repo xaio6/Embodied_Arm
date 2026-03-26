@@ -1,0 +1,578 @@
+[
+  {
+    "index": 1,
+    "joint_angles": [
+      -0.0,
+      -50.0,
+      50.0,
+      -0.0,
+      40.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370518.0596817,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        112.39722859688636,
+        1.2126023795689701e-14,
+        252.36700299004883
+      ],
+      "euler_angles": [
+        -4.181094257359068e-15,
+        -49.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 2,
+    "joint_angles": [
+      -0.0,
+      -50.0,
+      50.0,
+      -20.0,
+      40.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370523.555669,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        112.39722859688636,
+        -26.249649460918718,
+        256.9955244241482
+      ],
+      "euler_angles": [
+        22.175992588903345,
+        -46.041792997382224,
+        150.47984836514502
+      ]
+    }
+  },
+  {
+    "index": 3,
+    "joint_angles": [
+      -0.0,
+      -50.0,
+      50.0,
+      20.0,
+      40.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370526.7713585,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        112.39722859688636,
+        26.24964946091874,
+        256.9955244241482
+      ],
+      "euler_angles": [
+        -22.17599258890335,
+        -46.041792997382224,
+        -150.47984836514502
+      ]
+    }
+  },
+  {
+    "index": 4,
+    "joint_angles": [
+      -0.0,
+      -50.0,
+      50.0,
+      0.0,
+      70.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370541.4913056,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        61.768727201565234,
+        1.4296738311506802e-14,
+        216.91654466478417
+      ],
+      "euler_angles": [
+        -1.2769366635827897e-15,
+        -19.999999999999996,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 5,
+    "joint_angles": [
+      -0.0,
+      -50.0,
+      50.0,
+      0.0,
+      50.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370544.368242,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        97.68036268505318,
+        1.3027171932310066e-14,
+        237.65013707821564
+      ],
+      "euler_angles": [
+        -2.943859092239402e-15,
+        -39.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 6,
+    "joint_angles": [
+      10.0,
+      -50.0,
+      50.0,
+      0.0,
+      50.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370553.415347,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        96.19637848928474,
+        16.962016974104326,
+        237.65013707821564
+      ],
+      "euler_angles": [
+        9.999999999999996,
+        -39.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 7,
+    "joint_angles": [
+      -10.0,
+      -50.0,
+      50.0,
+      0.0,
+      50.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370556.5556402,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        96.19637848928474,
+        -16.96201697410429,
+        237.65013707821564
+      ],
+      "euler_angles": [
+        -10.000000000000004,
+        -39.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 8,
+    "joint_angles": [
+      -10.0,
+      -30.0,
+      50.0,
+      0.0,
+      50.0,
+      -0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370563.4054077,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        126.48577430246007,
+        -22.302854685325116,
+        197.77954148295265
+      ],
+      "euler_angles": [
+        -10.000000000000002,
+        -19.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 9,
+    "joint_angles": [
+      -10.0,
+      -30.0,
+      50.0,
+      0.0,
+      50.0,
+      -30.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370574.4907362,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        126.48577430246007,
+        -22.302854685325116,
+        197.77954148295265
+      ],
+      "euler_angles": [
+        21.566703966140967,
+        -17.229396562958893,
+        169.68589518438182
+      ]
+    }
+  },
+  {
+    "index": 10,
+    "joint_angles": [
+      -10.0,
+      -30.0,
+      50.0,
+      0.0,
+      50.0,
+      30.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370577.9489372,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        126.48577430246007,
+        -22.302854685325116,
+        197.77954148295265
+      ],
+      "euler_angles": [
+        -41.56670396614097,
+        -17.22939656295888,
+        -169.6858951843818
+      ]
+    }
+  },
+  {
+    "index": 11,
+    "joint_angles": [
+      -10.0,
+      -30.0,
+      50.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370580.580846,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        126.48577430246007,
+        -22.302854685325116,
+        197.77954148295265
+      ],
+      "euler_angles": [
+        -10.000000000000002,
+        -19.99999999999999,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 12,
+    "joint_angles": [
+      -10.0,
+      -40.0,
+      40.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370593.4644868,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        124.65006877739089,
+        -21.979170272619818,
+        266.54277140311365
+      ],
+      "euler_angles": [
+        -10.000000000000005,
+        -40.000000000000014,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 13,
+    "joint_angles": [
+      -30.0,
+      -40.0,
+      40.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370597.862185,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        109.61543084374945,
+        -63.28649850497554,
+        266.54277140311365
+      ],
+      "euler_angles": [
+        -30.000000000000004,
+        -40.000000000000014,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 14,
+    "joint_angles": [
+      0.0,
+      -40.0,
+      40.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370603.3438528,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        126.5729970099511,
+        1.1258008325064004e-14,
+        266.54277140311365
+      ],
+      "euler_angles": [
+        -2.943859092239403e-15,
+        -40.000000000000014,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 15,
+    "joint_angles": [
+      30.0,
+      -40.0,
+      40.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370607.236042,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        109.61543084374946,
+        63.286498504975555,
+        266.54277140311365
+      ],
+      "euler_angles": [
+        29.999999999999993,
+        -40.000000000000014,
+        -180.0
+      ]
+    }
+  },
+  {
+    "index": 16,
+    "joint_angles": [
+      -0.001999999999995339,
+      -50.0,
+      50.0,
+      -20.0,
+      50.0,
+      30.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370691.7212784,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        97.67927063886226,
+        -31.286523718215882,
+        243.16619412570287
+      ],
+      "euler_angles": [
+        -22.84457645152364,
+        -43.95626947009327,
+        -179.53730723186754
+      ]
+    }
+  },
+  {
+    "index": 17,
+    "joint_angles": [
+      -0.001999999999995339,
+      -50.0,
+      50.0,
+      20.0,
+      50.0,
+      -30.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370700.7024107,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        97.68145461222356,
+        31.279704342443715,
+        243.16619412570287
+      ],
+      "euler_angles": [
+        22.84057645152365,
+        -43.956269470093275,
+        179.53730723186757
+      ]
+    }
+  },
+  {
+    "index": 18,
+    "joint_angles": [
+      -0.001999999999995339,
+      -60.0,
+      50.0,
+      0.0,
+      50.0,
+      0.0
+    ],
+    "mode": "joint",
+    "timestamp": 1768370719.9561186,
+    "interpolation_type": "point_to_point",
+    "interpolation_params": {
+      "type": "point_to_point",
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500
+    },
+    "end_pose": {
+      "position": [
+        77.58995240162031,
+        -0.0027084002728295455,
+        252.98430270505202
+      ],
+      "euler_angles": [
+        -0.0019999999999995195,
+        -50.00000000000001,
+        -180.0
+      ]
+    }
+  }
+]

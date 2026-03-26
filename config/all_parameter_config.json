@@ -1,0 +1,247 @@
+{
+  "vision_grasp": {
+    "camera": {
+      "device_id": 1,
+      "mode": "mono",
+      "fixed_depth_value": 210.0
+    },
+    "sgbm": {
+      "min_disparity": 0,
+      "num_disparities": 128,
+      "block_size": 5,
+      "uniqueness": 10
+    },
+    "depth_mode": "固定深度",
+    "vision_detection": {
+      "detection_type": "color",
+      "hsv_lower": [
+        0,
+        0,
+        0
+      ],
+      "hsv_upper": [
+        179,
+        255,
+        50
+      ],
+      "min_area": 500,
+      "circle_dp": 1.2,
+      "circle_min_dist": 20,
+      "circle_param1": 100,
+      "circle_param2": 30,
+      "circle_min_radius": 5,
+      "circle_max_radius": 200,
+      "color_presets": {
+        "red": {
+          "lower": [
+            0,
+            50,
+            80
+          ],
+          "upper": [
+            10,
+            250,
+            255
+          ]
+        },
+        "yellow": {
+          "lower": [
+            0,
+            60,
+            80
+          ],
+          "upper": [
+            50,
+            250,
+            255
+          ]
+        },
+        "white": {
+          "lower": [
+            0,
+            20,
+            200
+          ],
+          "upper": [
+            179,
+            45,
+            255
+          ]
+        },
+        "black": {
+          "lower": [
+            0,
+            0,
+            0
+          ],
+          "upper": [
+            179,
+            255,
+            50
+          ]
+        }
+      }
+    },
+    "grasp_params": {
+      "euler_angles": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "use_dynamic_pose": true,
+      "motion_speed": 200,
+      "motion_acceleration": 400,
+      "tcp_offset": [
+        0.0,
+        15.0,
+        99.25
+      ]
+    }
+  },
+  "embodied_intelligence": {
+    "grasp_params": {
+      "euler_angles": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "use_dynamic_pose": true,
+      "motion_speed": 200,
+      "motion_acceleration": 400,
+      "tcp_offset": [
+        -35.0,
+        15.0,
+        99.25
+      ],
+      "grasp_depth": 210.0
+    }
+  },
+  "joycon_control": {
+    "basic_params": {
+      "stick_deadzone": 700
+    },
+    "cartesian_params": {
+      "position_step": 0.5,
+      "rotation_step": 0.5,
+      "max_speed": 150.0,
+      "max_angular_speed": 30.0
+    },
+    "joint_params": {
+      "angle_step": 0.5,
+      "max_speed": 500,
+      "acceleration": 1500,
+      "deceleration": 1500
+    },
+    "speed_control": {
+      "speed_levels": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.2,
+        2.5,
+        3.0
+      ],
+      "current_speed_index": 6
+    },
+    "attitude_params": {
+      "rotation_gain": 1.0,
+      "rotation_gain_mode2": 1.0,
+      "position_speed_mode2_mm_s": 105.0,
+      "position_speed_mm_s": 150.0,
+      "joint_max_speed": 101.2,
+      "joint_acceleration": 202.4,
+      "joint_deceleration": 202.4,
+      "dual_right_arm": 2,
+      "dual_left_arm": 1
+    },
+    "joint_limits": [
+      [
+        -120.0,
+        120.0
+      ],
+      [
+        -60.0,
+        60.0
+      ],
+      [
+        -60.0,
+        60.0
+      ],
+      [
+        -160.0,
+        160.0
+      ],
+      [
+        -90.0,
+        90.0
+      ],
+      [
+        -160.0,
+        160.0
+      ]
+    ],
+    "workspace_limits": {
+      "min_radius": 50,
+      "max_radius": 600,
+      "min_z": -200,
+      "max_z": 600
+    },
+    "attitude_default_params": {
+      "position_speed_mm_s": 150.0,
+      "joint_max_speed": 101.0,
+      "joint_acceleration": 202.0,
+      "joint_deceleration": 202.0
+    }
+  },
+  "teach_pendant": {
+    "basic_params": {
+      "max_speed": 200,
+      "acceleration": 500,
+      "deceleration": 500,
+      "step_size": 30.0
+    },
+    "cartesian_params": {
+      "linear_velocity": 150.0,
+      "angular_velocity": 90.0,
+      "linear_acceleration": 300.0,
+      "angular_acceleration": 180.0
+    },
+    "joint_params": {
+      "max_velocities": [
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0,
+        90.0
+      ],
+      "max_accelerations": [
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0,
+        180.0
+      ]
+    },
+    "interpolation_type": "cartesian"
+  },
+  "camera_calibration": {
+    "camera": {
+      "device_id": 0,
+      "mode": "mono"
+    }
+  },
+  "hand_eye_calibration": {
+    "camera": {
+      "device_id": 1,
+      "mode": "mono"
+    },
+    "motion_params": {
+      "max_speed": 100,
+      "acceleration": 200,
+      "deceleration": 200
+    }
+  }
+}
